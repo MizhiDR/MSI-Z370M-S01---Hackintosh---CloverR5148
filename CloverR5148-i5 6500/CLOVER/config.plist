@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Boot</key>
+	<dict>
+		<key>Arguments</key>
+		<string>-v agdpmod=pikera keepsyms=1 alcid=layout-id debug=0x100</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
+		<key>Legacy</key>
+		<string>PBR</string>
+		<key>XMPDetection</key>
+		<integer>-1</integer>
+	</dict>
+	<key>Devices</key>
+	<dict>
+		<key>Arbitrary</key>
+		<array>
+			<dict>
+				<key>CustomProperties</key>
+				<array>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Key</key>
+						<string>AAPL,ig-platform-id</string>
+						<key>Value</key>
+						<data>AQASGQ==</data>
+					</dict>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Key</key>
+						<string>device-id</string>
+						<key>Value</key>
+						<data>EhkAAA==</data>
+					</dict>
+				</array>
+				<key>PciAddr</key>
+				<string>PciRoot(0x0)/Pci(0x2,0x0)</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Quirks</key>
+	<dict>
+		<key>AvoidRuntimeDefrag</key>
+		<true/>
+		<key>DisableIoMapper</key>
+		<true/>
+		<key>DisableLinkeditJettison</key>
+		<true/>
+		<key>EnableSafeModeSlide</key>
+		<true/>
+		<key>EnableWriteUnprotector</key>
+		<true/>
+		<key>ProvideCustomSlide</key>
+		<true/>
+		<key>ResizeAppleGpuBars</key>
+		<integer>-1</integer>
+		<key>SetupVirtualMap</key>
+		<true/>
+		<key>XhciPortLimit</key>
+		<true/>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosReleaseDate</key>
+		<string>04/11/2022</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>IM171.88Z.F000.B00.2204111741</string>
+		<key>Board-ID</key>
+		<string>Mac-DB15BD556843C820</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02535600CDGPF7CB</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>iMac17,1</string>
+		<key>ChassisAssetTag</key>
+		<string>Asset Tag#</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0xD</string>
+		<key>EfiVersion</key>
+		<string>451.140.1.0.0</string>
+		<key>ExtendedFirmwareFeatures</key>
+		<string>0x00000008FC0FE137</string>
+		<key>ExtendedFirmwareFeaturesMask</key>
+		<string>0x00000008FF1FFF3F</string>
+		<key>Family</key>
+		<string>iMac</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>PlatformFeature</key>
+		<string>0x0</string>
+		<key>ProductName</key>
+		<string>iMac17,1</string>
+		<key>SerialNumber</key>
+		<string>C02Q9BZJGG7L</string>
+		<key>SmUUID</key>
+		<string>2A25467D-FAE3-4FEE-BDBE-695E9FE705AC</string>
+		<key>Version</key>
+		<string>1.0</string>
+	</dict>
+</dict>
+</plist>
